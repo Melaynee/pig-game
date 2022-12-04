@@ -19,6 +19,11 @@
     margin-top: 100px;
   }
 
+  .dice {
+    top: 46rem;
+    height: 3.8rem;
+  }
+
   .btn--new {
     top: 3rem;
   }
@@ -50,15 +55,20 @@
     font-size: 25px;
   }
 
+  .dice {
+    top: 42rem;
+    height: 3.8rem;
+  }
+
   .btn--new {
     top: 3rem;
   }
 
   .btn--roll {
-    top: 42.8rem;
+    top: 48.8rem;
   }
   .btn--hold {
-    top: 48rem;
+    top: 54rem;
   }
   .current {
     width: 80%;
@@ -75,6 +85,11 @@
 @media only screen and (max-width: 375px) {
   section {
     margin-top: 78px;
+  }
+
+  .dice {
+    top: 30rem;
+    height: 3.8rem;
   }
 
   .name {
