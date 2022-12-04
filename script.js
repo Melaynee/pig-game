@@ -69,7 +69,7 @@ const hold = function () {
       scores[activePlayer];
     reset();
 
-    if (scores[activePlayer] < 10) switchPlayer();
+    if (scores[activePlayer] < 100) switchPlayer();
     else {
       playing = false;
       document
