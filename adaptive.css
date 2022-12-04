@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
+  main {
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  section {
+    margin-top: 100px;
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 51.8rem;
+  }
+  .btn--hold {
+    top: 58.1rem;
+  }
+
+  .player {
+    padding: 6rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .btn--new {
+    top: 2.2rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+    padding: 0.4rem 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .name {
+    font-size: 25px;
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 42.8rem;
+  }
+  .btn--hold {
+    top: 48rem;
+  }
+  .current {
+    width: 80%;
+    padding: 1rem;
+  }
+  .score {
+    font-size: 5rem;
+  }
+  .player {
+    padding: 7.8rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  section {
+    margin-top: 78px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .current {
+    width: 60%;
+    padding: 0;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current-score {
+    font-size: 2rem;
+  }
+
+  .current-label {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .btn--new {
+    top: 3rem;
+  }
+
+  .btn--roll {
+    top: 34.8rem;
+  }
+  .btn--hold {
+    top: 40rem;
+  }
+
+  .player {
+    padding: 5rem;
+  }
+}
